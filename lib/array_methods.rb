@@ -4,8 +4,8 @@ def using_include(array, element)
   end
 
 def using_sort(array)
-  using_sort = ["array"] 
-  return using_sort
+  using_sort <=> ["array"] 
+  return array
   end
 
 def using_reverse(array)
