@@ -3,9 +3,9 @@ def using_include(array, element)
   array.include?(element)
   end
 
-def using_sort(array,last)
-  using_sort.last = ["array"]
+def using_sort(array)
   array.sort 
+  return array 
   end
 
 def using_reverse(array)
