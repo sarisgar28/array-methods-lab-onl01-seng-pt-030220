@@ -22,5 +22,5 @@ def using_last(array)
   end
 
 def using_size(array)
-
-end
+   array.size = [0]
+   end
